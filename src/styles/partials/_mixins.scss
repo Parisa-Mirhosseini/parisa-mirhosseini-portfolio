@@ -1,0 +1,51 @@
+@use "./variables.scss" as *;
+
+
+
+
+@mixin font-family($family) {
+    font-family: $family, sans-serif;
+  }
+  
+  
+  
+  @mixin mobile {
+    @media (min-width: $mobile-width) {
+      @content;
+    }
+  }
+  
+  
+  
+  @mixin tablet {
+    @media (min-width: $tablet-width) {
+      @content;
+    }
+  }
+  
+  @mixin desktop {
+    @media (min-width: $desktop-width) {
+      @content;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .destination {
+      padding: 0.5rem;
+    }
+  }
+  
+  
+  // border-radius
+  @mixin border-radius($radius) {
+    border-radius: $radius;
+  }
+  
+  // transition
+  @mixin transition($properties, $duration, $ease) {
+    transition: $properties $duration $ease;
+  }
+  
+  // Mixin for background color
+  @mixin background($color) {
+    background-color: $color;}

@@ -1,0 +1,23 @@
+
+
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .light {
+    background-color: #c7a49d88;
+    color: #151bb9;
+  }
+  .dark {
+    background-color: #053374;
+    color: #f0f0f0;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
