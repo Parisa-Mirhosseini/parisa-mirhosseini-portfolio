@@ -1,11 +1,16 @@
 
-
-
 body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    transition: background-color 0.3s, color 0.3s;
-  }
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(to bottom, #000000 40%, #8c4fff, #e89cff);
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  overflow: hidden;
+  position: relative;
+}
+  
+  
   .light {
     background-color: #c7a49d88;
     color: #151bb9;

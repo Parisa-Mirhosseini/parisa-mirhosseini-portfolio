@@ -1,9 +1,12 @@
 import './App.scss';
 import Header from './components/Header/Header.jsx';
-import HomePage from "./pages/HomePage/HomePage";
+import HomePage from "./Pages/HomePage/HomePage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from './components/Footer/Footer.jsx';
 import React from "react";
+// import AboutPage from "./Pages/AboutPage/AboutPage";
+// import ProjectsPage from "./Pages/ProjectsPage/ProjectsPage";
+// import BlogPage from "./Pages/BlogPage/BlogPage";
 
 
 function App() {
