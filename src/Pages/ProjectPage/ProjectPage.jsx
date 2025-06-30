@@ -4,7 +4,6 @@ import './ProjectPage.scss';
 
 function ProjectPage() {
   return (<div>
-    <HeroSection />
     <div className="Project">
       <div className="Project__content">
         <h1 className="Project__title">Welcome to My Portfolio</h1>

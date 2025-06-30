@@ -4,7 +4,6 @@ import './BlogPage.scss';
 
 function BlogPage() {
   return (<div>
-    <HeroSection />
     <div className="Blog">
       <div className="Blog__content">
         <h1 className="Blog__title">Welcome to My Portfolio</h1>

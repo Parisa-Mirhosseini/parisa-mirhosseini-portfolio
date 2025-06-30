@@ -5,7 +5,6 @@ import './AboutPage.scss';
 
 function AboutPage() {
   return (<div>
-    <HeroSection />
     <div className="About">
       <div className="About__content">
         <h1 className="About__title">Welcome to My Portfolio</h1>
