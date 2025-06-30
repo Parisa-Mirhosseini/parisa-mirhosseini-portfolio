@@ -9,9 +9,9 @@ function Footer() {
       <div className="footer__content">
         <p>&copy; {currentYear} Parisa Mirhosseini. All rights reserved.</p>
         <div className="footer__links">
-          <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="mailto:your.email@example.com">Email</a>
+          <a href="https://github.com/Parisa-Mirhosseini" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="www.linkedin.com/in/parisa-miehosseini" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="mailto:parisamirhosseini2@gmail.com">Email</a>
         </div>
       </div>
     </footer>
