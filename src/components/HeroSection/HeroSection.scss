@@ -17,7 +17,7 @@
   }
   
   .title {
-    font-size: 72px;
+    font-size: 70px;
     font-weight: 900;
     color: #f8eaff;
     letter-spacing: 5px;
@@ -31,15 +31,15 @@
     margin-bottom: 40px;
   }
   
-  // .platform {
-  //   width: 300px;
-  //   height: 60px;
-  //   background: #eee;
-  //   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
-  //   margin: 0 auto;
-  //   border-radius: 6px;
-  //   transform: perspective(1000px) rotateX(10deg);
-  // }
+  .platform {
+    width: 500px;
+    height: 30vh;
+    background: #dcdfe3;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+    border-radius: 8px;
+    transform: perspective(1000px) rotateX(60deg);
+  }
   
   // .curve {
   //   position: absolute;
