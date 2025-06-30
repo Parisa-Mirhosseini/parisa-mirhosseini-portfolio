@@ -1,11 +1,17 @@
 import './Header.scss';
 import { useTheme } from '../../theme/ThemeContext';
+import logo from '../../assets/logo/logo.svg'; 
 
 function Header() {
   const { toggleTheme } = useTheme();
 
   return (
     <header className="header">
+     <div className="logo">
+        <a href="/">
+          <img src={logo} alt="Parisa's Logo" className="logo-image" />
+        </a>
+      </div>
       <nav>
         <ul>
           <li><a href="/about">About</a></li>

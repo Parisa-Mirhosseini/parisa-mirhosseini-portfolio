@@ -10,7 +10,7 @@ function HeroSection () {
       <img src={curveRight} alt="curve-right" className="curve curve-right" /> */}
 
       <div className="content">
-        <button className="studio-button">STUDIO SHODWE</button>
+        <button className="studio-button">VIEW PROJECTS</button>
         <h1 className="title">CODE BY PARISA</h1>
         <p className="subtitle">PARISA MIRHOSSEINI</p>
         <div className="platform"></div>
