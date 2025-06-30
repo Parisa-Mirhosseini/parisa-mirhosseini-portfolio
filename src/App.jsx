@@ -21,7 +21,6 @@ function App() {
         <Route path="/Contact" element={<ContactPage />} /> */}
       </Routes>
       <Footer />
-     
       </BrowserRouter>
   );
 }

@@ -41,22 +41,22 @@
   //   transform: perspective(1000px) rotateX(10deg);
   // }
   
-  .curve {
-    position: absolute;
-    width: 220px;
-    z-index: 1;
-    pointer-events: none;
-  }
+  // .curve {
+  //   position: absolute;
+  //   width: 220px;
+  //   z-index: 1;
+  //   pointer-events: none;
+  // }
   
-  .curve-left {
-    top: 0;
-    left: 0;
-  }
+  // .curve-left {
+  //   top: 0;
+  //   left: 0;
+  // }
   
-  .curve-right {
-    top: 0;
-    right: 0;
-  }
+  // .curve-right {
+  //   top: 0;
+  //   right: 0;
+  // }
   
   .studio-button {
     background: transparent;
@@ -70,34 +70,34 @@
     cursor: pointer;
   }
   
-  .footer-info {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 40px;
-    font-size: 14px;
-    color: #ccc;
-    z-index: 2;
-  }
+  // .footer-info {
+  //   position: absolute;
+  //   bottom: 20px;
+  //   width: 100%;
+  //   display: flex;
+  //   justify-content: space-between;
+  //   padding: 0 40px;
+  //   font-size: 14px;
+  //   color: #ccc;
+  //   z-index: 2;
+  // }
   
-  .page-number {
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    transform: rotate(180deg);
-  }
+  // .page-number {
+  //   writing-mode: vertical-rl;
+  //   text-orientation: mixed;
+  //   transform: rotate(180deg);
+  // }
   
-  .hero::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 1000px;
-    height: 400px;
-    background: radial-gradient(circle, #b786ff80, transparent 70%);
-    filter: blur(80px);
-    z-index: 0;
-  }
+  // .hero::before {
+  //   content: '';
+  //   position: absolute;
+  //   bottom: 0;
+  //   left: 50%;
+  //   transform: translateX(-50%);
+  //   width: 1000px;
+  //   height: 400px;
+  //   background: radial-gradient(circle, #b786ff80, transparent 70%);
+  //   filter: blur(80px);
+  //   z-index: 0;
+  // }
   
