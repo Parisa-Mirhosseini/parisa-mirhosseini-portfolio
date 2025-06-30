@@ -1,6 +1,6 @@
 
 import './HomePage.scss';
-
+import HeroSection from '../../components/HeroSection/HeroSection.jsx';
 
 
 function HomePage() {
