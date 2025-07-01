@@ -16,10 +16,10 @@ function App() {
    <Header />
       <Routes>
       <Route path="/" element={<HomePage />} />
-        <Route path="/About" element={<AboutPage />} />
-        <Route path="/Projects" element={<ProjectPage />} />
-        <Route path="/Blog" element={<BlogPage />} />
-        <Route path="/Contact" element={<ContactPage />} />
+        <Route path="About" element={<AboutPage />} />
+        <Route path="Projects" element={<ProjectPage />} />
+        <Route path="Blog" element={<BlogPage />} />
+        <Route path="Contact" element={<ContactPage />} />
       </Routes>
       <Footer />
       </BrowserRouter>
