@@ -41,22 +41,26 @@
     transform: perspective(1000px) rotateX(60deg);
   }
   
-  // .curve {
-  //   position: absolute;
-  //   width: 220px;
-  //   z-index: 1;
-  //   pointer-events: none;
-  // }
+  .curve {
+    position: absolute;
+    width: 220px;
+    z-index: 1;
+    pointer-events: none;
+  }
   
-  // .curve-left {
-  //   top: 0;
-  //   left: 0;
-  // }
+  .curve-left {
+    width: 400px;
+    top: 100px;
+    left: -200px;
+    transform: rotate(10deg);
+  }
   
-  // .curve-right {
-  //   top: 0;
-  //   right: 0;
-  // }
+  .curve-right {
+    width: 400px;
+    top: 100px;
+    right: -200px;
+    transform: rotate(110deg);
+  }
   
   .studio-button {
     background: transparent;
