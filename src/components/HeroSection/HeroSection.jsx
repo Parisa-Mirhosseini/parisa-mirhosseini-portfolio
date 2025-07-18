@@ -8,10 +8,11 @@ function HeroSection () {
     <div className="hero">
       <img src={curveLeft} alt="curve-left" className="curve curve-left" />
       <img src={curveRight} alt="curve-right" className="curve curve-right" />
-      <div className="content">
-        <button className="studio-button">VIEW PROJECTS</button>
+      <div className="content">  
         <h1 className="title">CODE BY PARISA</h1>
+        <h1 className="home__title">Welcome to My Portfolio</h1>
         <p className="subtitle">PARISA MIRHOSSEINI</p>
+        <button className="studio-button">VIEW PROJECTS</button>
         <div className="platform"></div>
       </div>
     </div>
