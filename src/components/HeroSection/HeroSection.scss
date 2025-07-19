@@ -1,4 +1,7 @@
-  
+@use "../../styles/partials/variables.scss" as *;
+@use "../../styles/partials/mixins.scss" as *;
+@use "../../styles/partials/typography.scss" as *;
+
   .content {
     z-index: 2;
     text-align: center;
@@ -11,6 +14,7 @@
     color: #f8eaff;
     letter-spacing: 5px;
     margin: 0;
+    font-family: "tan-pearl";
   }
   
   .subtitle {

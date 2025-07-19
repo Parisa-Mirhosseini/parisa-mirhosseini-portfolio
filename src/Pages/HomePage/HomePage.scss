@@ -1,7 +1,12 @@
+@use "../../styles/partials/variables.scss" as *;
+@use "../../styles/partials/mixins.scss" as *;
+@use "../../styles/partials/typography.scss" as *;
+
+
 .home {
 	color: #d9e8e7;
 	text-align: center;
 	font-size: 10px;
-	// margin: 0;
+	// font-family: "tan-pearl";
   }
 

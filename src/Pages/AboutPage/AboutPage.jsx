@@ -6,7 +6,10 @@ function AboutPage() {
   return (
   <div>
     <div className="About">
-      <h1 className="About-title">ABOUT ME</h1>
+      <h1 className="About-title">
+      <span className="About-title__about">About </span> 
+      <span className="About-title__me">ME</span>
+        </h1>
       <div className="About-title_container">
       <h2 className="About-title_container-text">Hi, I’m Parisa Mirhosseini</h2>
       <img src={avatar} alt="Parisa Mirhosseini" className="About-title_container-avatar" />
