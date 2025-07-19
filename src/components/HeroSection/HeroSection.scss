@@ -1,14 +1,3 @@
-// .hero {
-//     position: relative;
-//     height: 100vh;
-//     background: #000;
-//     overflow: hidden;
-//     color: white;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//   }
   
   .content {
     z-index: 2;
@@ -73,36 +62,10 @@
     font-size: 14px;
     letter-spacing: 1px;
     cursor: pointer;
+    &-link{
+      text-decoration: none;
+      color: inherit;
+    }
   }
-  
-  // .footer-info {
-  //   position: absolute;
-  //   bottom: 20px;
-  //   width: 100%;
-  //   display: flex;
-  //   justify-content: space-between;
-  //   padding: 0 40px;
-  //   font-size: 14px;
-  //   color: #ccc;
-  //   z-index: 2;
-  // }
-  
-  // .page-number {
-  //   writing-mode: vertical-rl;
-  //   text-orientation: mixed;
-  //   transform: rotate(180deg);
-  // }
-  
-  // .hero::before {
-  //   content: '';
-  //   position: absolute;
-  //   bottom: 0;
-  //   left: 50%;
-  //   transform: translateX(-50%);
-  //   width: 1000px;
-  //   height: 400px;
-  //   background: radial-gradient(circle, #b786ff80, transparent 70%);
-  //   filter: blur(80px);
-  //   z-index: 0;
-  // }
-  
+
+
