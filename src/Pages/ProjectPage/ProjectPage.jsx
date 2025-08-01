@@ -1,20 +1,43 @@
 import './ProjectPage.scss';
+import itinero from '../../assets/images/itinero.svg';
+import Bandsite from '../../assets/images/bandsite.svg';
+import Snap from '../../assets/images/snap.svg';
+import instock from '../../assets/images/instock.svg';
+import coffeeshop from '../../assets/images/coffeeshop.svg';
+import asanty from '../../assets/images/asanty.svg';
+
+
 const projects = [
   {
     title: "Itinero",
-    image: "path/to/itinero-image.jpg", 
+    image: itinero,
     link: "https://github.com/Parisa-Mirhosseini/parisa-mirhosseini-capstone.git",
   },
   {
     title: "Bandsite",
-    image: "path/to/bandsite-image.jpg", 
+    image: Bandsite, 
     link: "https://github.com/Parisa-Mirhosseini/parisa-mirhosseini-bandsite.git",
   },
   {
-    title: "Snaps",
-    image: "path/to/project3-image.jpg", 
+    title: "instock",
+    image: instock, 
+    link: "https://github.com/Parisa-Mirhosseini/in-stock_lpm.git",
+  },
+  {
+    title: "Snap",
+    image: Snap, 
     link: "https://github.com/Parisa-Mirhosseini/parisa-mirhosseini-snaps.git",
   },
+  {
+    title: "coffee shop",
+    image: coffeeshop,
+    link : "https://github.com/Parisa-Mirhosseini/Parisa-mirhosseini-coffeeshop.git",
+  },
+  {
+    title: "Asanty Beauty",
+    image: asanty,
+    link : "https://asantybeauty.com",
+  }
 ];
 
 
