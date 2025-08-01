@@ -1,8 +1,6 @@
-@use "../../styles/partials/variables.scss" as *;
-@use "../../styles/partials/mixins.scss" as *;
-@use "../../styles/partials/typography.scss" as *;
-
-
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/typography' as *;
 
 .Project {
 	color: #d9e8e7;
@@ -43,12 +41,10 @@
 
 		&:hover {
 			transform: translateY(-5px);
-	
 		}
 
 		&--image {
-			width: 20%;
-
+			width: 5rem;
 		}
 
 		&--title {
@@ -57,25 +53,25 @@
 			font-weight: bold;
 			color: #f8eaff;
 			text-align: left;
+			text-decoration: none;
 		}
 	}
+}
 
+@include mobile {
+	.Project__item {
+		flex-direction: column;
+		align-items: flex-start;
+		text-align: center;
 
-	@include mobile {
-		&__item {
-			flex-direction: column;
-			align-items: flex-start;
+		.Project__item--image {
+			margin-right: 0;
+			margin-bottom: 1rem;
+			width: 100%;
+		}
+
+		.Project__item--title {
 			text-align: center;
-
-			&--image {
-				margin-right: 0;
-				margin-bottom: 1rem;
-				width: 100%;
-			}
-
-			&--title {
-				text-align: center;
-			}
 		}
 	}
 }
