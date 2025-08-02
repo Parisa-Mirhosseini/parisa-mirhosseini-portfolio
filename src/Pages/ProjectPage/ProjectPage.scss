@@ -21,57 +21,6 @@
 			color: #caa8ff;
 		}
 	}
-
-	&__list {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 2rem;
-		padding: 2rem;
-	}
-
-	&__item {
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		padding: 1rem;
-		width: 20%;
-		max-width: 800px;
-		@include transition(transform, 0.2s, ease);
-
-		&:hover {
-			transform: translateY(-5px);
-		}
-
-		&--image {
-			width: 5rem;
-		}
-
-		&--title {
-			flex-grow: 1;
-			font-size: 1.5rem;
-			font-weight: bold;
-			color: #f8eaff;
-			text-align: left;
-			text-decoration: none;
-		}
-	}
+	
 }
 
-@include mobile {
-	.Project__item {
-		flex-direction: column;
-		align-items: flex-start;
-		text-align: center;
-
-		.Project__item--image {
-			margin-right: 0;
-			margin-bottom: 1rem;
-			width: 100%;
-		}
-
-		.Project__item--title {
-			text-align: center;
-		}
-	}
-}

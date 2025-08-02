@@ -2,12 +2,11 @@
 @use "../../styles/partials/mixins.scss" as *;
 @use "../../styles/partials/typography.scss" as *;
 
-  .content {
-    z-index: 2;
-    text-align: center;
-    padding-top: 60px;
-  }
-  
+.content {
+  z-index: 2;
+  text-align: center;
+  padding-top: 60px;
+
   .title {
     font-size: 70px;
     font-weight: 900;
@@ -16,14 +15,14 @@
     margin: 0;
     font-family: "tan-pearl";
   }
-  
+
   .subtitle {
     font-size: 16px;
     letter-spacing: 10px;
     color: #caa8ff;
     margin-bottom: 40px;
   }
-  
+
   .platform {
     width: 500px;
     height: 30vh;
@@ -33,53 +32,61 @@
     transform: perspective(1000px) rotateX(60deg);
     animation: floatPlatform 4s ease-in-out infinite alternate;
   }
-  
-  // 👇 Add the keyframes
-  @keyframes floatPlatform {
-    0% {
-      transform: perspective(1000px) rotateX(60deg) translateY(0px);
-    }
-    100% {
-      transform: perspective(2000px) rotateX(90deg) translateY(-30px);
-    }
-  }
+}
 
-  .curve {
-    position: absolute;
-    width: 220px;
-    z-index: 1;
-    pointer-events: none;
+@keyframes floatPlatform {
+  0% {
+    transform: perspective(1000px) rotateX(60deg) translateY(0px);
   }
-  
-  .curve-left {
-    width: 400px;
-    top: 100px;
-    left: -200px;
-    transform: rotate(10deg);
-    
+  100% {
+    transform: perspective(2000px) rotateX(90deg) translateY(-30px);
   }
-  
-  .curve-right {
-    width: 400px;
-    top: 100px;
-    right: -200px;
-    transform: rotate(110deg);
-  }
-  
-  .studio-button {
-    background: transparent;
-    border: 1px solid #caa8ff;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 20px;
-    margin-bottom: 20px;
-    font-size: 14px;
-    letter-spacing: 1px;
-    cursor: pointer;
-    &-link{
-      text-decoration: none;
-      color: inherit;
-    }
-  }
+}
 
+// .curve {
+//   position: absolute;
+//   width: 220px;
+//   z-index: 1;
+//   pointer-events: none;
+ 
 
+//   &-left {
+//     width: 400px;
+//     top: 100px;
+//     left: -200px;
+//     transform: rotate(10deg);
+//     @include mobile {
+//       width:20px;
+//     }
+//   }
+
+//   &-right {
+//     width: 400px;
+//     top: 100px;
+//     right: -200px;
+//     transform: rotate(110deg);
+//     @include tablet {
+//       width: 300px;
+//     }
+//     @include mobile {
+//       width:20px;
+//     }
+//   }
+// }
+
+.studio-button {
+  background: transparent;
+  border: 1px solid #caa8ff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+  &-link {
+    text-decoration: none;
+    color: inherit;
+  }
+}

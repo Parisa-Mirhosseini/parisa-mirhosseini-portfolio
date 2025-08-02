@@ -1,21 +1,15 @@
 @use "./variables.scss" as *;
 
 
-
-
 @mixin font-family($family) {
     font-family: $family, sans-serif;
   }
-  
-  
   
   @mixin mobile {
     @media (min-width: $mobile-width) {
       @content;
     }
   }
-  
-  
   
   @mixin tablet {
     @media (min-width: $tablet-width) {
