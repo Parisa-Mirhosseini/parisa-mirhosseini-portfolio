@@ -3,17 +3,40 @@
 @use "../../styles/partials/typography.scss" as *;
 
 .content {
-  z-index: 2;
   text-align: center;
+  margin-top: 60px;
   padding-top: 60px;
+  @include tablet {
+    z-index: 2;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 60px;
+  }
+.home__title{
+  font-size: 15px;
+  font-weight: 600;
+  @include tablet {
+    font-size: 20px;
+    font-weight: 600;
+  }
 
+}
   .title {
-    font-size: 70px;
+    font-size: 20px;
     font-weight: 900;
     color: #f8eaff;
     letter-spacing: 5px;
     margin: 0;
     font-family: "tan-pearl";
+    @include tablet{
+      font-size: 50px;
+      font-weight: 900;
+      color: #f8eaff;
+      letter-spacing: 5px;
+      margin: 0;
+      font-family: "tan-pearl";
+
+    }
   }
 
   .subtitle {
@@ -23,56 +46,50 @@
     margin-bottom: 40px;
   }
 
-  .platform {
-    width: 500px;
-    height: 30vh;
-    margin: 0 auto;
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
-    border-radius: 8px;
-    transform: perspective(1000px) rotateX(60deg);
-    animation: floatPlatform 4s ease-in-out infinite alternate;
-  }
+
 }
 
-@keyframes floatPlatform {
-  0% {
-    transform: perspective(1000px) rotateX(60deg) translateY(0px);
-  }
-  100% {
-    transform: perspective(2000px) rotateX(90deg) translateY(-30px);
-  }
-}
 
-// .curve {
-//   position: absolute;
-//   width: 220px;
-//   z-index: 1;
-//   pointer-events: none;
+.curve {
+  position: absolute;
+  width: 200px;
+  z-index:1;
+  pointer-events: none;
+  @include tablet {
+    position: absolute;
+    width: 220px;
+    z-index:1;
+    pointer-events: none;
+
+  }
  
 
-//   &-left {
-//     width: 400px;
-//     top: 100px;
-//     left: -200px;
-//     transform: rotate(10deg);
-//     @include mobile {
-//       width:20px;
-//     }
-//   }
+  &-left {
+    width: 140px;
+    top: 100px;
+    left: -65px;
+    transform: rotate(-10deg);
+    @include tablet {
+    width: 400px;
+    top: 100px;
+    left: -200px;
+    transform: rotate(10deg);
+    }
+  }
 
-//   &-right {
-//     width: 400px;
-//     top: 100px;
-//     right: -200px;
-//     transform: rotate(110deg);
-//     @include tablet {
-//       width: 300px;
-//     }
-//     @include mobile {
-//       width:20px;
-//     }
-//   }
-// }
+  &-right {
+    width: 140px;
+    top: 100px;
+    right: -65px;
+    transform: rotate(120deg);
+    @include tablet {
+      width: 400px;
+      top: 100px;
+      right: -200px;
+      transform: rotate(110deg);
+      }
+  }
+}
 
 .studio-button {
   background: transparent;

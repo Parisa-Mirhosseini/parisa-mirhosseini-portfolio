@@ -6,9 +6,27 @@
 .home {
 	color: #d9e8e7;
 	text-align: center;
+  @include tablet{
+    text-align: center;
 	font-size: 10px;
-	// font-family: "tan-pearl";
+  }
   }
 
- 
+  .platform {
+    width: 500px;
+    height: 30vh;
+    margin: 0 auto;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    transform: perspective(1000px) rotateX(60deg);
+    animation: floatPlatform 4s ease-in-out infinite alternate;
+  }
 
+  @keyframes floatPlatform {
+	0% {
+	  transform: perspective(1000px) rotateX(60deg) translateY(0px);
+	}
+	100% {
+	  transform: perspective(2000px) rotateX(90deg) translateY(-30px);
+	}
+  }

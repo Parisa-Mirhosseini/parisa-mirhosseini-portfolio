@@ -9,6 +9,7 @@ function HomePage() {
     <div className="home">
       <div className="home__content">
       </div>
+      <div className="platform"></div>
     </div>
   </div>
 

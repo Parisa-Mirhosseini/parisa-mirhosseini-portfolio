@@ -7,9 +7,9 @@ function Header() {
 
   return (
     <header className="header">
-     <div className="logo">
+     <div className="header__logo">
         <a href="/">
-          <img src={logo} alt="Parisa's Logo" className="logo-image" />
+          <img src={logo} alt="Parisa's Logo" className="header__logo-image" />
         </a>
       </div>
       <nav>
