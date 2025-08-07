@@ -4,7 +4,7 @@
 
 .About {
 	text-align: justify;
-	font-size: 20px;
+	font-size: 18px;
 	padding: 0 5rem 5rem;
 
 	&-title {
@@ -12,8 +12,8 @@
 		font-weight: bold;
 		text-align: center;
 
-		@include mobile {
-		  font-size: 18px;
+		@include tablet{
+		  font-size: 20px;
 		}
 
 		&__about {
@@ -45,8 +45,8 @@
 		}
 		&-text {
 			text-align: center;
-			@include mobile {
-				font-size: 18px;
+			@include tablet {
+				font-size: 20px;
 			  }
 		}
 	}
