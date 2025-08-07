@@ -8,13 +8,7 @@
   margin-top: 60px;
   padding-top: 60px;
 
-  // @include tablet {
-  //   text-align: center;
-  //   padding-top: 60px;
-  // }
-
   .home__title {
-
     padding: 40px;
     font-size: 12px;
     font-weight: 600;
@@ -27,26 +21,24 @@
   }
 
   .title {
-
     font-size: 18px;
     font-weight: 900;
-
     color: #f8eaff;
     letter-spacing: 5px;
     font-family: "tan-pearl";
     margin: 0 15px 25px 15px;
 
     @include tablet {
+      font-size: 30px;
+    }
+
+    @include desktop {
       font-size: 50px;
-      font-weight: 900;
-      margin: 0;
     }
   }
 
   .subtitle {
-
     color: #caa8ff;
-
     font-size: 10px;
     letter-spacing: 5px;
     margin: 30px 15px 15px 15px;
@@ -63,31 +55,29 @@
 
 
 .curve {
-
-
   position: absolute;
   width: 200px;
   z-index: 1;
   pointer-events: none;
 
-  @include tablet {
-    width: 220px;
-  }
-
-
   &-left {
-  
     width: 140px;
     top: 100px;
     left: -75px;
     transform: rotate(-10deg);
 
     @include tablet {
+      width: 200px;
+      top: 100px;
+      left: -100px;
+      transform: rotate(10deg);
+    }
+
+    @include desktop {
       width: 400px;
       top: 100px;
       left: -200px;
       transform: rotate(10deg);
-    
     }
   }
 
@@ -98,11 +88,17 @@
     transform: rotate(120deg);
 
     @include tablet {
+      width: 200px;
+      top: 100px;
+      right: -100px;
+      transform: rotate(110deg);
+    }
+
+    @include desktop {
       width: 400px;
-    top: 100px;
-    right: -200px;
-    transform: rotate(110deg);
-      
+      top: 100px;
+      right: -200px;
+      transform: rotate(110deg);
     }
   }
 }
