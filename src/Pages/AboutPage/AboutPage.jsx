@@ -14,7 +14,7 @@ function AboutPage() {
       <h2 className="About-title_container-text">Hi, I’m Parisa Mirhosseini</h2>
       <img src={avatar} alt="Parisa Mirhosseini" className="About-title_container-avatar" />
       </div>
-      <p className="About-content"> a Software Engineer with a background in architectural design and a passion for creating thoughtful, user-centered digital experiences.
+      <p className="About-content"> A Software Engineer with a background in architectural design and a passion for creating thoughtful, user-centered digital experiences.
 
 Before stepping into tech, I spent several years bringing spaces to life as an architectural designer. That experience taught me how to balance form and function a mindset I now bring to every line of code. Whether it’s building responsive UIs, planning user flows, or collaborating with teams, I approach each project with a designer’s eye and a developer’s precision.
 
