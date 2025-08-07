@@ -2,8 +2,6 @@
 @use "../../styles/partials/mixins.scss" as *;
 @use "../../styles/partials/typography.scss" as *;
 
-
-
 .About {
 	text-align: justify;
 	font-size: 20px;
@@ -11,22 +9,28 @@
 
 	&-title {
 		font-size: 3rem;
-		font-weight: bold; 
-		text-align: center; 
-	  
-		&__about {
-		  color: #f8eaff;
-		  font-family: "tan-pearl";
+		font-weight: bold;
+		text-align: center;
+
+		@include mobile {
+		  font-size: 18px;
 		}
-	  
+
+		&__about {
+			color: #f8eaff;
+			font-family: "tan-pearl";
+
+			//   @include mobile {
+			//     font-size: 8px;
+			//   }
+		}
+
 		&__me {
-		  color: #caa8ff; /* Color for "ME" */
+			color: #caa8ff;
 		}
 	}
 
-
 	&-title_container {
-		// padding: 3rem;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -37,14 +41,13 @@
 			width: 20%;
 			border-radius: 50%;
 
-			@media (max-width: 768px) {
-				width: 50%;
-				margin: 0 auto;
-			}
 
-			@media (max-width: 480px) {
-				width: 100%;
-			}
+		}
+		&-text {
+			text-align: center;
+			@include mobile {
+				font-size: 18px;
+			  }
 		}
 	}
 }

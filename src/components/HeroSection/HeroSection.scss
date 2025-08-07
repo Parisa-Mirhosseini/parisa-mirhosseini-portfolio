@@ -3,54 +3,59 @@
 @use "../../styles/partials/typography.scss" as *;
 
 .content {
+  z-index: 2;
   text-align: center;
   margin-top: 60px;
-  padding-top: 60px;
-  @include tablet {
-    z-index: 2;
+
+  @include mobile {
     text-align: center;
     margin-top: 60px;
-   
-  }
-.home__title{
-  font-size: 12px;
-  font-weight: 600;
-  @include tablet {
-    font-size: 20px;
-    font-weight: 600;
-    padding:40px ;
+    padding-top: 60px;
   }
 
-}
+  .home__title {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 40px;
+
+    @include mobile {
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+  }
+
   .title {
-    font-size: 18px;
+
+
+ font-size: 50px;
+      font-weight: 900;
+      color: #f8eaff;
+      letter-spacing: 5px;
+      margin: 0;
+      font-family: "tan-pearl";
+    @include mobile {
+       font-size: 18px;
     font-weight: 900;
     color: #f8eaff;
     letter-spacing: 5px;
     margin: 0 15px 25px 15px;
     font-family: "tan-pearl";
 
-    @include tablet{
-      font-size: 50px;
-      font-weight: 900;
-      color: #f8eaff;
-      letter-spacing: 5px;
-      margin: 0;
-      font-family: "tan-pearl";
-
     }
   }
 
-  .subtitle {
-    font-size: 10px;
-    letter-spacing: 5px;
+  .subtitle { 
+    font-size: 16px;
+    letter-spacing: 10px;
     color: #caa8ff;
-    margin: 30px 15px 15px 15px;
-    @include tablet{
-      font-size: 16px;
-      letter-spacing: 10px;
+    margin-bottom: 40px;
+
+    @include mobile {
+      font-size: 10px;
+      letter-spacing: 5px;
       color: #caa8ff;
-      margin-bottom: 40px;
+      margin: 30px 15px 15px 15px;
 
     }
   }
@@ -60,43 +65,50 @@
 
 
 .curve {
+
+
   position: absolute;
-  width: 200px;
-  z-index:1;
+  width: 220px;
+  z-index: 1;
   pointer-events: none;
-  @include tablet {
+
+  @include mobile {
     position: absolute;
-    width: 220px;
-    z-index:1;
-    pointer-events: none;
+  width: 200px;
+  z-index: 1;
+  pointer-events: none;
 
   }
- 
+
 
   &-left {
-    width: 140px;
-    top: 100px;
-    left: -75px;
-    transform: rotate(-10deg);
-    @include tablet {
     width: 400px;
     top: 100px;
     left: -200px;
     transform: rotate(10deg);
+
+    @include mobile {
+   
+        width: 140px;
+    top: 100px;
+    left: -75px;
+    transform: rotate(-10deg);
     }
   }
 
   &-right {
-    width: 140px;
+   
+    width: 400px;
+    top: 100px;
+    right: -200px;
+    transform: rotate(110deg);
+
+    @include mobile {
+      width: 140px;
     top: 100px;
     right: -75px;
     transform: rotate(120deg);
-    @include tablet {
-      width: 400px;
-      top: 100px;
-      right: -200px;
-      transform: rotate(110deg);
-      }
+    }
   }
 }
 
@@ -106,15 +118,16 @@
   color: #fff;
   padding: 10px 20px;
   border-radius: 20px;
-  font-size: 10px;
-  letter-spacing: 1px;
-  cursor: pointer;
-    @include tablet{
+ 
   font-size: 14px;
   letter-spacing: 1px;
   cursor: pointer;
-  
-}
+  @include mobile {
+    font-size: 10px;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+  }
 
   &-link {
     text-decoration: none;

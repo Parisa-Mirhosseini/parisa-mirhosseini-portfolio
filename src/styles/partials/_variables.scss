@@ -1,24 +1,24 @@
-//PRIMARY COLORS
+// variables.scss
+
+// Primary colors
 $background: #FEF4F4;
 $buttons: #E9ECFA;
 $button: #0166E1;
 $white: white;
 $black: black;
 
-
-//SECONDARY COLORS
+// Secondary colors
 $violet: #a498c3;
 $green: #28a745;
 $blue: #0056b3;
 $red: red;
 
-//different screen sizes
-$mobile-width:425px;
+// Screen sizes
+$mobile-width: 425px;
 $tablet-width: 768px;
 $desktop-width: 1280px;
 
-
-// reusable variables for spacing and fonts
+// Spacing & typography
 $font-size-small: 0.7rem;
 $font-size-medium: 1rem;
 $font-size-large: 2.5rem;
@@ -28,4 +28,4 @@ $spacing-medium: 1rem;
 $spacing-large: 2.5rem;
 
 $button-radius: 50px;
-$card-border-radius: 0.10px;
+$card-border-radius: 0.1rem;
