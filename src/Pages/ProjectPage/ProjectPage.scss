@@ -11,8 +11,10 @@
 		font-size: 25px;
 		font-weight: bold;
 		text-align: center;
+		margin: 1rem;
 		@include tablet {
 			font-size: 40px;
+			margin: 1rem;
 		}
 
 		&--my {
