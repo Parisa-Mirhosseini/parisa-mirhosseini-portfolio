@@ -6,15 +6,18 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
-  padding: 2rem;
+  gap: 1rem;
+  padding: 3rem 1rem 3rem 1rem;
+  @include tablet {
+    gap: 1rem;
+    padding: 5rem 2rem 5rem 2rem;
+  }
 }
 
 .Project__item {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 1rem;
   width: 20%;
   max-width: 800px;
   @include transition(transform, 0.2s, ease);
@@ -24,15 +27,15 @@
   }
 
   &--image {
-    width: 5rem;
+    width: 4.5rem;
   }
 
   &--title {
-    flex-grow: 1;
-    font-size: 1.5rem;
+    font-size: 12px;
+    padding-top: 10px;
     font-weight: bold;
     color: #f8eaff;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
   }
 }
@@ -43,14 +46,13 @@
     align-items: flex-start;
     text-align: center;
 
-    .Project__item--image {
-      margin-right: 0;
+    &--image {
       margin-bottom: 1rem;
-      width: 100%;
+      width: 50%;
+    }
+    &--title {
+      font-size: 16px;
     }
 
-    .Project__item--title {
-      text-align: center;
-    }
   }
 }

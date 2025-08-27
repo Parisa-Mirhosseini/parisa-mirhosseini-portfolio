@@ -11,8 +11,8 @@ function ProjectPage() {
       <div className="Project">
         <div className="Project__content">
           <h1 className="Project__title">
-            <span className="Project__title--explore">Explore </span>
-            <span className="Project__title--myproject">MY PROJECTS</span>
+            <span className="Project__title--my">My </span>
+            <span className="Project__title--projects">PROJECTS</span>
           </h1>
         </div>
       </div>

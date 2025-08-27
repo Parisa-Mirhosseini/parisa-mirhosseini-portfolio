@@ -8,16 +8,19 @@
 	font-size: 10px;
 
 	&__title {
-		font-size: 3rem;
+		font-size: 25px;
 		font-weight: bold;
 		text-align: center;
+		@include tablet {
+			font-size: 40px;
+		}
 
-		&--explore {
+		&--my {
 			color: #f8eaff;
 			@include font-family("tan-pearl");
 		}
 
-		&--myproject {
+		&--projects {
 			color: #caa8ff;
 		}
 	}
