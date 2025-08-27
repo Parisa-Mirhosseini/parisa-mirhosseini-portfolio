@@ -2,6 +2,7 @@
 @use "../../styles/partials/mixins.scss" as *;
 @use "../../styles/partials/typography.scss" as *;
 
+
 .content {
   z-index: 2;
   text-align: center;
@@ -104,6 +105,7 @@
 }
 
 .studio-button {
+  display: inline-block;
   background: transparent;
   border: 1px solid #caa8ff;
   color: #fff;

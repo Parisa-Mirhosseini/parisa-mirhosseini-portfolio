@@ -17,7 +17,6 @@ function HeroSection() {
         <button className="studio-button">
           <Link to="/projects" className="studio-button-link">VIEW PROJECTS</Link>
         </button>
-        
       </div>
     </div>
   );
