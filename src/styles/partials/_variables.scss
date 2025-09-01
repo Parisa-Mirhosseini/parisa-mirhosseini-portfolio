@@ -1,31 +1,22 @@
-// variables.scss
+// Colors for dark mode
+$dark-text-color: rgba(192, 188, 197, 0.962);
+$dark-title-color: #f8eaff;
+$dark-subtitle-color: #caa8ff;
+$border-button-color: #caa8ff;
 
-// Primary colors
-$background: #FEF4F4;
-$buttons: #E9ECFA;
-$button: #0166E1;
-$white: white;
-$black: black;
+// You can add variables for light mode too, but we'll primarily use CSS variables
+$light-text-color: rgb(1, 9, 65);
+$light-title-color: rgb(1, 9, 65); 
+$light-subtitle-color: #444444;   
+$light-border-button-color: #555; 
 
-// Secondary colors
-$violet: #a498c3;
-$green: #28a745;
-$blue: #0056b3;
-$red: red;
+// Or, better yet, just define the CSS variable names as SCSS variables
+$text-color-primary: var(--text-color-primary);
+$studio-button-color: var(--studio-button-color);
+$subtitle-color: var(--subtitle-color);
 
 // Screen sizes
 $breakpoint-tablet: 768px;
 $breakpoint-desktop: 1280px;
 $breakpoint-mobile: 320px;
 
-// Spacing & typography
-$font-size-small: 0.7rem;
-$font-size-medium: 1rem;
-$font-size-large: 2.5rem;
-
-$spacing-small: 0.5rem;
-$spacing-medium: 1rem;
-$spacing-large: 2.5rem;
-
-$button-radius: 50px;
-$card-border-radius: 0.1rem;

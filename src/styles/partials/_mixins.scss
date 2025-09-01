@@ -1,8 +1,6 @@
 @use "./variables.scss" as *;
 
 
-// mixins.scss
-
 @mixin font-family($family) {
   font-family: $family, sans-serif;
 }

@@ -24,7 +24,7 @@
   .title {
     font-size: 18px;
     font-weight: 900;
-    color: #f8eaff;
+    color: var(--text-color-primary);
     letter-spacing: 5px;
     font-family: "tan-pearl";
     margin: 0 15px 25px 15px;
@@ -39,7 +39,7 @@
   }
 
   .subtitle {
-    color: #caa8ff;
+    color: $dark-subtitle-color;
     font-size: 10px;
     letter-spacing: 5px;
     margin: 30px 15px 15px 15px;
@@ -107,7 +107,7 @@
 .studio-button {
   display: inline-block;
   background: transparent;
-  border: 1px solid #caa8ff;
+  border: 1px solid $border-button-color;
   color: #fff;
   padding: 10px 20px;
   border-radius: 20px;

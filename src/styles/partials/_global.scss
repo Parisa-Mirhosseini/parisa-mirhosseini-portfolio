@@ -17,6 +17,8 @@ html, body {
     color: rgb(1, 9, 65);
     overflow: hidden;
     position: relative;
+    --text-color-primary: rgb(1, 9, 65);
+  --light-border-button-color: #555; 
     
   }
   .dark {
@@ -25,9 +27,10 @@ html, body {
   height: 100vh;
   background: linear-gradient(to bottom, #000000 40%, #8c4fff, #e89cff);
   font-family: 'Poppins', sans-serif;
-  color: rgba(192, 188, 197, 0.962);
+  color:#d9e8e7;
   overflow: hidden;
   position: relative;
+  --border-button-color: #caa8ff;
   }
   nav ul {
     display: flex;

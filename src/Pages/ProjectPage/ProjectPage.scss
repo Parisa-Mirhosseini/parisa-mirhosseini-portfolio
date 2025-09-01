@@ -3,7 +3,6 @@
 @use '../../styles/partials/typography' as *;
 
 .Project {
-	color: #d9e8e7;
 	text-align: center;
 	font-size: 10px;
 
@@ -18,7 +17,6 @@
 		}
 
 		&--my {
-			color: #f8eaff;
 			@include font-family("tan-pearl");
 		}
 
