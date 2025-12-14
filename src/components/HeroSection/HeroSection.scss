@@ -4,16 +4,10 @@
 
 .hero {
   position: relative;
-  overflow: hidden; // Prevent curve images from causing horizontal scroll
-  min-height: 60vh;
+  min-height: 0vh;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.curve {
-  @media (max-width: 480px) {
-    display: none; // Hide curves on very small screens
-  }
 }
 .content {
   z-index: 2;

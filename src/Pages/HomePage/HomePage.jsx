@@ -4,7 +4,7 @@ import HeroSection from '../../components/HeroSection/HeroSection.jsx';
 
 function HomePage() {
   return (
-    <div className="home">
+    <div className="home page-container">
     <HeroSection />
       <div className="home__content">
       </div>

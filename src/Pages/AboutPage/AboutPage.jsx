@@ -4,7 +4,7 @@ import avatar from '../../assets/images/avatar.png';
 
 function AboutPage() {
   return (
-  <div>
+    <div className="page-container">
     <div className="About">
       <h1 className="About-title">
       <span className="About-title__about">About </span> 

@@ -2,10 +2,18 @@
 
 .app {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: auto 1fr auto; // Header, Content, Footer
   
-  &__content {
-    flex: 1 0 auto; // Takes available space
+  .app__content {
+    grid-row: 2;
+  }
+  
+  header {
+    grid-row: 1;
+  }
+  
+  footer {
+    grid-row: 3;
   }
 }

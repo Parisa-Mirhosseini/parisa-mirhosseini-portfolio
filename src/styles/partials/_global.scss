@@ -14,25 +14,30 @@
   box-sizing: border-box;
 }
 
-// Ensure body takes full height
-html {
+html, body, #root {
   height: 100%;
+  width: 100%;
 }
 
 body {
-  min-height: 100%;
   display: flex;
   flex-direction: column;
 }
 
 #root {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+// Ensure all pages take full height
+.page-container {
   flex: 1;
   display: flex;
   flex-direction: column;
 }
 
 .light {
-  // height: 100vh;
   background: var(--bg-gradient-light);
   color: var(--text-light);
   overflow: hidden;
@@ -45,7 +50,6 @@ body {
 }
 
 .dark {
-  // height: 100vh;
   background: var(--bg-gradient-dark);
   color: var(--text-dark);
   overflow: hidden;
