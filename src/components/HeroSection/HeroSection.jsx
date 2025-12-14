@@ -4,7 +4,6 @@ import curveLeft from "../../assets/images/curve-left.png";
 import curveRight from "../../assets/images/curve-right.png";
 import { Link } from "react-router-dom";
 
-
 function HeroSection() {
   return (
     <div className="hero">

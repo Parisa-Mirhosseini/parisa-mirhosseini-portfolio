@@ -57,3 +57,31 @@
     }
   }
 }
+
+.header {
+  nav {
+    ul {
+      li {
+        a,
+        button {
+          // Add these for better accessibility
+          &:focus-visible {
+            outline: 2px solid #58b6b0;
+            outline-offset: 2px;
+          }
+          
+          // Improve button styling
+          button {
+            font-size: 1.5rem; // Make emoji button more touch-friendly
+            padding: 0.5rem;
+            border-radius: 50%;
+            background: transparent;
+            &:hover {
+              background: rgba(88, 182, 176, 0.1);
+            }
+          }
+        }
+      }
+    }
+  }
+}
