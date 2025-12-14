@@ -13,6 +13,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 // Ensure body takes full height
 html {
   height: 100%;
@@ -31,7 +32,7 @@ body {
 }
 
 .light {
-  height: 100vh;
+  // height: 100vh;
   background: var(--bg-gradient-light);
   color: var(--text-light);
   overflow: hidden;
@@ -44,12 +45,12 @@ body {
 }
 
 .dark {
-  height: 100vh;
+  // height: 100vh;
   background: var(--bg-gradient-dark);
   color: var(--text-dark);
   overflow: hidden;
   position: relative;
-  --button-border: #caa8ff;
+   --button-border: #caa8ff;
   --button-hover: #9f6bff;
 }
 
