@@ -1,41 +1,61 @@
+:root {
+  --primary-color: #58b6b0;
+  --secondary-color: #caa8ff;
+  --bg-gradient-light: linear-gradient(to bottom, #7ec6e2 40%, #9fcead, #e89cff);
+  --bg-gradient-dark: linear-gradient(to bottom, #000000 40%, #8c4fff, #e89cff);
+  --text-light: rgb(1, 9, 65);
+  --text-dark: #d9e8e7;
+}
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-html, body {
-  height: auto;
-  overflow-y: auto;
+// Ensure body takes full height
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .light {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    background: linear-gradient(to bottom, #7ec6e2 40%, #9fcead, #e89cff);
-    font-family: 'Poppins', sans-serif;
-    color: rgb(1, 9, 65);
-    overflow: hidden;
-    position: relative;
-    --text-color-primary: rgb(1, 9, 65);
-  --light-border-button-color: #555; 
-    
-  }
-  .dark {
-    margin: 0;
-  padding: 0;
   height: 100vh;
-  background: linear-gradient(to bottom, #000000 40%, #8c4fff, #e89cff);
-  font-family: 'Poppins', sans-serif;
-  color:#d9e8e7;
+  background: var(--bg-gradient-light);
+  color: var(--text-light);
   overflow: hidden;
   position: relative;
-  --border-button-color: #caa8ff;
-  }
-  nav ul {
-    display: flex;
-    list-style: none;
-    gap: 1rem;
-    justify-content: center;
-  }
-  
+  --text-color-primary: rgb(1, 9, 65);
+  --light-border-button-color: #555;
+  --button-border: #555;
+  --button-hover: #58b6b0;
+
+}
+
+.dark {
+  height: 100vh;
+  background: var(--bg-gradient-dark);
+  color: var(--text-dark);
+  overflow: hidden;
+  position: relative;
+  --button-border: #caa8ff;
+  --button-hover: #9f6bff;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  justify-content: center;
+}
