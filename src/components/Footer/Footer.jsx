@@ -42,7 +42,7 @@ function Footer() {
                 <span className="footer__link-text">LinkedIn</span>
               </a>
               <a 
-                href="mailto:parisamirhosseini2@gmail.com" 
+                href="mailto:codebyparisa@gmail.com" 
                 aria-label="Send me an email"
                 className="footer__link footer__link--email"
               >

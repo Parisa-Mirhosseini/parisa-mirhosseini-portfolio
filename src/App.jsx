@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer.jsx';
 import React from "react";
 import AboutPage from "./Pages/AboutPage/AboutPage";
 import ProjectPage from "./Pages/ProjectPage/ProjectPage";
+import ContactPage from "./Pages/ContactPage/ContactPage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/projects" element={<ProjectPage />} />
+            <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </main>
         <Footer />
