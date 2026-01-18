@@ -26,9 +26,10 @@
 		font-weight: bold;
 		text-align: center;
 		padding: 0 0 1rem 0;
+		letter-spacing: 2px;
 
 		@include tablet {
-			font-size: 35px;
+			font-size: 40px;
 		}
 
 		&__about {
@@ -37,7 +38,7 @@
 		}
 
 		&__me {
-			color: #caa8ff;
+			color: var(--accent-color);
 		}
 
 		&-content {

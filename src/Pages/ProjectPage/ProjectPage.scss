@@ -11,9 +11,11 @@
 		font-weight: bold;
 		text-align: center;
 		margin: 1rem;
+		letter-spacing: 2px;
 		@include tablet {
 			font-size: 40px;
 			margin: 1rem;
+
 		}
 
 		&--my {
@@ -21,9 +23,8 @@
 		}
 
 		&--projects {
-			color: #caa8ff;
+			color: var(--accent-color);
 		}
 	}
 	
 }
-
