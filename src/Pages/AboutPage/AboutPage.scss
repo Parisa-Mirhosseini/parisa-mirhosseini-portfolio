@@ -4,18 +4,22 @@
 
 .About {
 	text-align: justify;
-	font-size: 10px;
-	padding: 0 2rem 2rem;
+	font-size: 16px;
+	padding: 4rem;
 
 	@include tablet {
-		font-size: 18px;
-		padding: 0 5rem 5rem;
+		font-size: 24px;
+		padding: 5rem 5rem 5rem 5rem;
 	}
-
+	@include desktop {
+		padding: 6rem 12rem 10rem 12rem;
+	font-size:25px;
+	}
 	&-title {
 		font-size: 25px;
 		font-weight: bold;
 		text-align: center;
+		padding:0 0 3rem 0 ;
 
 		@include tablet {
 			font-size: 40px;
@@ -29,6 +33,9 @@
 		&__me {
 			color: #caa8ff;
 		}
+		&-content {
+			padding: 2rem;
+		}
 	}
 
 	&-title_container {
@@ -38,10 +45,19 @@
 		gap: 40px;
 		margin-bottom: 2rem;
 
+		@include tablet {
+			font-size: 40px;
+			margin-bottom: 4rem;
+		}
+
 		&-avatar {
 			width: 40%;
 			border-radius: 50%;
 			@include tablet {
+				width: 20%;
+			border-radius: 50%;
+			}
+			@include desktop {
 				width: 20%;
 			border-radius: 50%;
 			}
@@ -53,7 +69,10 @@
 			text-align: center;
 
 			@include tablet {
-				font-size: 20px;
+				font-size: 24px;
+			}
+			@include desktop {
+				font-size: 30px;
 			}
 		}
 	}
