@@ -4,19 +4,23 @@ $dark-title-color: #f8eaff;
 $dark-subtitle-color: #caa8ff;
 $border-button-color: #caa8ff;
 
-// You can add variables for light mode too, but we'll primarily use CSS variables
+// Colors for light mode
 $light-text-color: rgb(1, 9, 65);
 $light-title-color: rgb(1, 9, 65); 
 $light-subtitle-color: #444444;   
 $light-border-button-color: #555; 
 
-// Or, better yet, just define the CSS variable names as SCSS variables
+// Theme-aware CSS variables (use these in your components)
 $text-color-primary: var(--text-color-primary);
 $studio-button-color: var(--studio-button-color);
 $subtitle-color: var(--subtitle-color);
+$border-button-color: var(--button-border);
+
+// Add these new variables
+$project-title-color: var(--project-title-color);
+$button-text-color: var(--button-text-color);
 
 // Screen sizes
 $breakpoint-tablet: 768px;
 $breakpoint-desktop: 1280px;
 $breakpoint-mobile: 320px;
-

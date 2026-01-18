@@ -19,6 +19,8 @@
     padding: 40px;
     font-size: 12px;
     font-weight: 600;
+    letter-spacing: 5px;
+
 
     @include tablet {
       font-size: 20px;
@@ -45,7 +47,7 @@
   }
 
   .subtitle {
-    color: $dark-subtitle-color;
+    color: $subtitle-color;
     font-size: 10px;
     letter-spacing: 5px;
     margin: 30px 15px 15px 15px;
@@ -114,7 +116,7 @@
   display: inline-block;
   background: transparent;
   border: 1px solid $border-button-color;
-  color: #fff;
+  color: $button-text-color; 
   padding: 10px 20px;
   border-radius: 20px;
   font-size: 10px;

@@ -43,9 +43,14 @@ body {
   overflow: hidden;
   position: relative;
   --text-color-primary: rgb(1, 9, 65);
+  --text-color-secondary: #6b7280;
   --light-border-button-color: #555;
   --button-border: #555;
   --button-hover: #58b6b0;
+  --accent-color: #667eea;
+  --project-title-color: rgb(1, 9, 65); /* Add this */
+  --button-text-color: rgb(1, 9, 65); /* Add this */
+  --subtitle-color: #444444; 
 
 }
 
@@ -56,6 +61,7 @@ body {
   position: relative;
    --button-border: #caa8ff;
   --button-hover: #9f6bff;
+  --subtitle-color: #caa8ff;
 }
 
 nav ul {
