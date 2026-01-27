@@ -12,7 +12,7 @@ function HeroSection() {
       <div className="content">
         <h1 className="title">PARISA MIRHOSSEINI</h1>
         <p className="role">
-              Software Engineer & UI/UX Designer
+        Frontend Developer with a Product Mindset
             </p>
         <h1 className="home__title">WELCOME TO MY PORTFOLIO</h1>
         <button className="studio-button">

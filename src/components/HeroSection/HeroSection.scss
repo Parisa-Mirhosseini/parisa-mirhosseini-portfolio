@@ -34,12 +34,23 @@
     }
 
   }
-.role{
-  color: $subtitle-color;
-  @include tablet {
-    font-size: 20px;
+  .role {
+    color: $subtitle-color;
+    padding: 0 5rem;
+    text-align: center;
+  
+    // allow proper wrapping
+    white-space: normal;
+    word-break: break-word;
+  
+    // responsive typography
+    font-size: clamp(1rem, 3vw, 1.25rem);
+    line-height: 1.4;
+  
+    @include tablet {
+      font-size: 1.25rem;
     }
-}
+  }
   .title {
     font-size: 14px;
     font-weight: 900;
@@ -47,6 +58,7 @@
     letter-spacing: 5px;
     font-family: "tan-pearl";
     margin: 0 15px 25px 15px;
+    padding: 0 3rem;
 
     @include tablet {
       font-size: 30px;
