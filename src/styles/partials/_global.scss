@@ -40,7 +40,6 @@ body {
 .light {
   background: var(--bg-gradient-light);
   color: var(--text-light);
-  overflow: hidden;
   position: relative;
   --text-color-primary: rgb(1, 9, 65);
   --text-color-secondary: #6b7280;
@@ -51,13 +50,11 @@ body {
   --project-title-color: rgb(1, 9, 65); /* Add this */
   --button-text-color: rgb(1, 9, 65); /* Add this */
   --subtitle-color: #444444; 
-
 }
 
 .dark {
   background: var(--bg-gradient-dark);
   color: var(--text-dark);
-  overflow: hidden;
   position: relative;
   --accent-color: #caa8ff;
    --button-border: #caa8ff;

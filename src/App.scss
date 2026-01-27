@@ -1,19 +1,32 @@
+// App.scss
 @use "./styles/partials/global" as *;
 
 .app {
   min-height: 100vh;
-  display: grid;
-  grid-template-rows: auto 1fr auto; // Header, Content, Footer
+  display: flex;
+  flex-direction: column; // Use flex instead of grid for better compatibility
   
   .app__content {
-    grid-row: 2;
-  }
-  
-  header {
-    grid-row: 1;
-  }
-  
-  footer {
-    grid-row: 3;
+    flex: 1; // Takes all available space between header and footer
+    overflow-y: auto; // Ensure content can scroll if needed
+    width: 100%;
   }
 }
+
+// Remove or fix these styles that might conflict
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
