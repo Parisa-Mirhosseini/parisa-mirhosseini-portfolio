@@ -32,11 +32,11 @@ const projects = [
     image: coffeeshop,
     link: "https://coffeeshop-rf5ms2c58-parisa-mirhosseinis-projects.vercel.app/",
   },
-  {
-    title: "Asanty Beauty",
-    image: asanty,
-    link: "https://asantybeauty.com",
-  }
+  // {
+  //   title: "Asanty Beauty",
+  //   image: asanty,
+  //   link: "https://asantybeauty.com",
+  // }
 ];
 
 function ProjectCards() {
