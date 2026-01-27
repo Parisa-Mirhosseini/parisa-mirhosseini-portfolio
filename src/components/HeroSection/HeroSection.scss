@@ -8,6 +8,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  
+  @include tablet {
+    min-height: 50vh;
+  }
 }
 .content {
   z-index: 2;
