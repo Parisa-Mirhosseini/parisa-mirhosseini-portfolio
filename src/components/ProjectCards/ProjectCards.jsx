@@ -44,7 +44,12 @@ function ProjectCards() {
     <div className="Project__list">
       {projects.map((project, index) => (
         <div key={index} className="Project__item">
-          <a href={project.link} target="_blank" rel="noopener noreferrer">
+          <a 
+            href={project.link} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="Project__link"
+          >
             <img
               src={project.image}
               alt={project.title}
@@ -57,6 +62,5 @@ function ProjectCards() {
     </div>
   );
 }
-
 
 export default ProjectCards;
