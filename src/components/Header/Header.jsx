@@ -2,6 +2,7 @@ import './Header.scss';
 import { useTheme } from '../../theme/ThemeContext';
 import logo from '../../assets/logo/logo.svg';
 import { useState } from 'react';
+import themeIcon from '../../assets/icons/theme-icon.png';
 
 function Header() {
   const { toggleTheme } = useTheme();
@@ -57,7 +58,11 @@ function Header() {
               className="header__theme-toggle"
               aria-label="Toggle theme"
             >
-              🌓
+               <img 
+                src={themeIcon} 
+                alt="Theme toggle" 
+                className="header__theme-icon"
+              />
             </button>
           </li>
         </ul>
