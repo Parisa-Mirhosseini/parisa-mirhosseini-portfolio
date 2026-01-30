@@ -3,19 +3,21 @@
 @use "../../styles/partials/typography.scss" as *;
 
 .About {
-	text-align: justify;
+	
 	font-size: 16px;
 	padding: 1rem 2rem; // Reduced side padding for mobile
 	color: var(--text-color-primary); // Ensure text uses theme color
 	line-height: 1.6; // Added for better readability
 
 	@include tablet {
+		text-align: justify;
 		font-size: 18px; // Slightly smaller for tablet
 		padding: 2rem 3rem 3rem 3rem;
 		line-height: 1.7;
 	}
 
 	@include desktop {
+		text-align: justify;
 		padding: 6rem 12rem 6rem 12rem;
 		font-size: 22px;
 		line-height: 1.8;
