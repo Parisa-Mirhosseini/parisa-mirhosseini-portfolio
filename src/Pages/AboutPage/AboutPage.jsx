@@ -22,7 +22,7 @@ function AboutPage() {
       <br />
       I’m especially interested in opportunities where technology intersects with creativity from crafting polished frontend interfaces to exploring how AI can enhance the way we build and interact with digital products.
 
-When I’m not coding, you’ll probably find me exploring new cafes, sketching ideas, or planning my next travel adventure. Feel free to reach out if you’d like to connect or collaborate.</p>
+When I’m not coding, you’ll probably find me exploring new cafes, sketching ideas, or planning my next travel adventure.<br /> Feel free to reach out if you’d like to connect or collaborate.</p>
       <div className="About__content">
       </div>
     </div>
