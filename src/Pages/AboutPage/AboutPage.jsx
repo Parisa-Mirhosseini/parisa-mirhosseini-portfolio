@@ -14,17 +14,15 @@ function AboutPage() {
       <h2 className="About-title_container-text">Hi, I’m Parisa Mirhosseini</h2>
       <img src={avatar} alt="Parisa Mirhosseini" className="About-title_container-avatar" />
       </div>
-      <p className="About-content"> A Software Engineer with a background in architectural design and a passion for creating thoughtful, user-centered digital experiences.
+      <p className="About-content"> I’m a frontend developer with a background in architectural design and a strong interest in creating thoughtful, user-centered digital experiences. Before transitioning into tech, I spent several years working as an architectural designer, where I learned how to balance form and function a mindset I now bring to every line of code.
 
-Before stepping into tech, I spent several years bringing spaces to life as an architectural designer. That experience taught me how to balance form and function a mindset I now bring to every line of code. Whether it’s building responsive UIs, planning user flows, or collaborating with teams, I approach each project with a designer’s eye and a developer’s precision.
+      <br />
+      Whether I’m building responsive UIs, planning user flows, or collaborating with cross-functional teams, I approach each project with a designer’s eye and a developer’s precision. After completing an intensive Software Engineering diploma at BrainStation, I’ve worked with React, JavaScript, SCSS, WordPress, and I've built projects ranging from e-commerce platforms to full-stack web applications using React, modern JavaScript, and backend tools like Node.js and MySQL.
 
-After completing an intensive Software Engineering diploma at BrainStation, I’ve worked on diverse projects ranging from e-commerce platforms to full-stack web applications. I enjoy solving real-world problems with clean code, modern JavaScript frameworks, and a strong sense of design.
+      <br />
+      I’m especially interested in opportunities where technology intersects with creativity from crafting polished frontend interfaces to exploring how AI can enhance the way we build and interact with digital products.
 
-I’m especially interested in opportunities where technology intersects with creativity from crafting beautiful front-end interfaces to exploring how AI can enhance the way we build and interact with digital tools.
-
-When I’m not coding, you’ll probably find me exploring new cafes, sketching ideas, or planning my next travel adventure.
-
-Thanks for stopping by feel free to reach out if you’d like to connect, collaborate, or just say hello!</p>
+When I’m not coding, you’ll probably find me exploring new cafes, sketching ideas, or planning my next travel adventure. Feel free to reach out if you’d like to connect or collaborate.</p>
       <div className="About__content">
       </div>
     </div>
