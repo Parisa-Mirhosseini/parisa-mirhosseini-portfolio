@@ -11,7 +11,7 @@ function Footer() {
           <div className="footer__copyright">
             <p>&copy; {currentYear} Parisa Mirhosseini. All rights reserved.</p>
             <p className="footer__tagline">
-              Software Engineer & UI/UX Designer
+            Frontend Developer with a Product Mindset
             </p>
           </div>
           
