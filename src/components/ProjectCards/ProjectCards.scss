@@ -93,6 +93,14 @@
   border-radius: 0.5rem;
 }
 
+.Project__modal-video {
+  display: block;
+  width: min(90vw, 900px);
+  max-height: calc(90vh - 2rem);
+  border-radius: 0.5rem;
+  background: #000;
+}
+
 .Project__modal-close {
   position: absolute;
   top: 0.5rem;
