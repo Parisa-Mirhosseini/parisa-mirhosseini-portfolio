@@ -8,6 +8,7 @@ import coffeeshop from '../../assets/images/coffeeshop.svg';
 import asanty from '../../assets/images/asanty.svg';
 import labelbuddies from '../../assets/images/labelbuddies.png';
 import labelbuddiespage from '../../assets/images/labelbuddiespage.png';
+import asantyVideo from '../../assets/videos/Asanty Beauty-website.mov asanty-beauty-demo.mp4.mp4';
 
 const projects = [
    {
@@ -43,7 +44,7 @@ const projects = [
   {
     title: "Asanty Beauty",
     image: asanty,
-    link: "https://asantybeauty.com",
+    modalVideo: asantyVideo,
   }
 ];
 
@@ -55,7 +56,7 @@ function ProjectCards() {
       <div className="Project__list">
         {projects.map((project, index) => (
           <div key={index} className="Project__item">
-            {project.title === "Label Buddies" ? (
+            {project.modalImage || project.modalVideo ? (
               <button
                 type="button"
                 className="Project__link Project__button"
@@ -108,11 +109,24 @@ function ProjectCards() {
             >
               x
             </button>
-            <img
-              src={selectedProject.modalImage ?? selectedProject.image}
-              alt={`${selectedProject.title} preview`}
-              className="Project__modal-image"
-            />
+            {selectedProject.modalVideo ? (
+              <video
+                className="Project__modal-video"
+                controls
+                autoPlay
+                muted
+                playsInline
+              >
+                <source src={selectedProject.modalVideo} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            ) : (
+              <img
+                src={selectedProject.modalImage ?? selectedProject.image}
+                alt={`${selectedProject.title} preview`}
+                className="Project__modal-image"
+              />
+            )}
           </div>
         </div>
       )}
