@@ -5,8 +5,24 @@ import Snap from '../../assets/images/snap.svg';
 import instock from '../../assets/images/instock.svg';
 import coffeeshop from '../../assets/images/coffeeshop.svg';
 import asanty from '../../assets/images/asanty.svg';
+import labelbuddies from '../../assets/images/labelbuddies.png';
+import { useState } from "react";
+
+const [selectedProject, setSelectedProject] = useState(null);
+const handleClick = (project) => {
+  if (project.title === "Label Buddies") {
+    setSelectedProject(project);
+  } else {
+    window.open(project.link, "_blank", "noopener,noreferrer");
+  }
+};
 
 const projects = [
+   {
+    title: "Label Buddies",
+    image: labelbuddies,
+    link: "https://asantybeauty.com",
+  },
   {
     title: "Itinero",
     image: itinero,
