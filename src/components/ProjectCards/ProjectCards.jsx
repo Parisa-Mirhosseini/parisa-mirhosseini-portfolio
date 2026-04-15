@@ -18,7 +18,7 @@ const projects = [
     link: "https://bandsitebio.netlify.app",
   },
   {
-    title: "Igitnstock",
+    title: "Instock",
     image: instock,
     link: "https://github.com/Parisa-Mirhosseini/in-stock_lpm.git",
   },
