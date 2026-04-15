@@ -76,20 +76,21 @@
   z-index: 1000;
 }
 
-// .Project__modal-content {
-//   position: relative;
-//   max-width: 90vw;
-//   max-height: 90vh;
-//   background: #fff;
-//   border-radius: 0.5rem;
-//   padding: 1rem;
-// }
+.Project__modal-content {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  background: #170f36;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
 
 .Project__modal-image {
   display: block;
   max-width: 100%;
   max-height: calc(90vh - 2rem);
   object-fit: contain;
+  border-radius: 0.5rem;
 }
 
 .Project__modal-close {
