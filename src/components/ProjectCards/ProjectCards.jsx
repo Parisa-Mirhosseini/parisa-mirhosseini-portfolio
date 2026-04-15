@@ -18,7 +18,7 @@ const projects = [
     link: "https://bandsitebio.netlify.app",
   },
   {
-    title: "instock",
+    title: "Igitnstock",
     image: instock,
     link: "https://github.com/Parisa-Mirhosseini/in-stock_lpm.git",
   },
@@ -28,7 +28,7 @@ const projects = [
     link: "https://github.com/Parisa-Mirhosseini/parisa-mirhosseini-snaps.git",
   },
   {
-    title: "coffee shop",
+    title: "Coffee Shop(Only Desktop)",
     image: coffeeshop,
     link: "https://nitrobeans.netlify.app",
   },
