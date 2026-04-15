@@ -15,7 +15,7 @@ const projects = [
   {
     title: "Bandsite",
     image: Bandsite,
-    link: "https://github.com/Parisa-Mirhosseini/parisa-mirhosseini-bandsite.git",
+    link: "https://bandsitebio.netlify.app",
   },
   {
     title: "instock",
@@ -30,13 +30,13 @@ const projects = [
   {
     title: "coffee shop",
     image: coffeeshop,
-    link: "https://coffeeshop-rf5ms2c58-parisa-mirhosseinis-projects.vercel.app/",
+    link: "https://nitrobeans.netlify.app",
   },
-  // {
-  //   title: "Asanty Beauty",
-  //   image: asanty,
-  //   link: "https://asantybeauty.com",
-  // }
+  {
+    title: "Asanty Beauty",
+    image: asanty,
+    link: "https://asantybeauty.com",
+  }
 ];
 
 function ProjectCards() {
