@@ -57,6 +57,54 @@
   }
 }
 
+.Project__button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  font: inherit;
+}
+
+.Project__modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  z-index: 1000;
+}
+
+// .Project__modal-content {
+//   position: relative;
+//   max-width: 90vw;
+//   max-height: 90vh;
+//   background: #fff;
+//   border-radius: 0.5rem;
+//   padding: 1rem;
+// }
+
+.Project__modal-image {
+  display: block;
+  max-width: 100%;
+  max-height: calc(90vh - 2rem);
+  object-fit: contain;
+}
+
+.Project__modal-close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  border: 0;
+  border-radius: 999px;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
 @include tablet {
   .Project__item {
     flex-direction: column;
